@@ -1,0 +1,24 @@
+{
+    "Format": "2.4.4",
+    "Changes": [
+        {
+            "LogName": "Load Gizmo picture and rug assets",
+            "Action": "Load",
+            "Target": "assets/Rugmo, assets/Rugmo2, assets/Picmo, assets/Picmo2, assets/Rugmo3, assets/Picmo3",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load Gizmo rug",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "GizmoEnthusiast.Rugmo": "Rugmo/rug/2 2/2 2/1/100/-1/Cat Rug/0/assets\\Rugmo",
+                "GizmoEnthusiast.Rugmo2": "Rugmo2/rug/2 2/2 2/1/100/-1/Cat Rug/0/assets\\Rugmo2",
+                "GizmoEnthusiast.Rugmo3": "Rugmo2/rug/1 1/1 1/1/100/-1/Cat Rug/0/assets\\Rugmo3",
+                "GizmoEnthusiast.Picmo": "Picmo/painting/2 2/2 2/1/100/-1/Cat Picture/0/assets\\Picmo",
+                "GizmoEnthusiast.Picmo2": "Picmo/painting/1 1/1 1/1/100/-1/Cat Picture/0/assets\\Picmo2",
+                "GizmoEnthusiast.Picmo3": "Picmo/painting/1 1/1 1/1/100/-1/Cat Picture/0/assets\\Picmo3"
+            }
+        }
+    ]
+}

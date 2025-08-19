@@ -1,0 +1,11 @@
+{
+    "Name": "Decormo",
+    "Author": "GizmoEnthusiast",
+    "Version": "1.0.0",
+    "Description": "Adds Gizmo as a decor items",
+    "UniqueID": "GizmoEnthusiast.Decormo",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
