@@ -1,0 +1,11 @@
+{
+    "Name": "Fishmo",
+    "Author": "GizmoEnthusiast",
+    "Version": "1.0.1",
+    "Description": "Adds Gizmo as a fish option",
+    "UniqueID": "GizmoEnthusiast.Fishmo",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

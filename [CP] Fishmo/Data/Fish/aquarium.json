@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/AquariumFish",
+            "Entries": {
+                "GizmoEnthusiast.Fishmo": "0/fish/////LooseSprites\\fishmoAquarium"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "LooseSprites/fishmoAquarium",
+            "FromFile": "assets/fishmoAquarium.png"
+        }
+    ]
+    }

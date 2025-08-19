@@ -1,0 +1,33 @@
+{
+  "Changes": [
+      {
+          "LogName": "Load assets",
+          "Action": "Load",
+          "Target": "Mods\\GizmoEnthusiast.Fishmo\\Fishmo",
+          "FromFile": "assets/{{TargetWithoutPath}}.png"
+      },
+      {
+          "LogName": "Amend Objects Data",
+          "Action": "EditData",
+          "Target": "Data/Objects",
+          "Entries": {
+          "GizmoEnthusiast.Fishmo": {
+            "Name": "Fishmo",
+            "DisplayName": "{{i18n:objects.fishmo.name}}",
+            "Description": "{{i18n:objects.fishmo.description}}",
+            "Type": "Fish",
+            "Category": -4,
+            "Price": 150,
+            "Texture": "Mods\\GizmoEnthusiast.Fishmo\\fishmo",
+            "SpriteIndex": 0,
+            "Edibility": 10,
+            "ContextTags": [
+              "color_orange",
+              "fish_fishmo",
+              "additional_fish"
+            ]
+          }       
+      }
+    }
+    ]
+}

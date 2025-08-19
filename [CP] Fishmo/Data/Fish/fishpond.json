@@ -1,0 +1,74 @@
+{
+    "Changes": [
+        {
+            "LogName": "Edit FishPondData",
+            "Action": "EditData",
+            "Target": "Data/FishPondData",
+            "Entries": {
+                "GizmoEnthusiast.Fishmo": {
+                    "Id": "GizmoEnthusiast.Fishmo",
+                    "RequiredTags": [
+                        "item_fishmo"
+                    ],
+                    "Precedence": 0,
+                    "SpawnTime": -1,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.03,
+                            "ItemID": 347,
+                            "MinQuantity": 3,
+                            "MaxQuantity": 9
+                        },
+                        {
+                            "RequiredPopulation": 8,
+                            "Chance": 0.05,
+                            "ItemID": 172,
+                            "MinQuantity": 3,
+                            "MaxQuantity": 6
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.05,
+                            "ItemID": 812,
+                            "MinQuantity": 4,
+                            "MaxQuantity": 8
+                        },
+                        {
+                            "RequiredPopulation": 4,
+                            "Chance": 0.1,
+                            "ItemID": 172,
+                            "MinQuantity": 1,
+                            "MaxQuantity": 3
+                        },
+                        {
+                            "RequiredPopulation": 2,
+                            "Chance": 0.5,
+                            "ItemID": 812,
+                            "MinQuantity": 4,
+                            "MaxQuantity": 8
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.25,
+                            "ItemID": 812,
+                            "MinQuantity": 2,
+                            "MaxQuantity": 5
+                        }
+                    ],
+                    "PopulationGates": {
+                        "2": [
+                            "684 20"
+                        ],
+                        "5": [
+                            "206 5"
+                        ],
+                        "8": [
+                            "227 10"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
