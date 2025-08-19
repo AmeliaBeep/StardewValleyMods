@@ -1,0 +1,11 @@
+{
+    "Name": "Gizmo",
+    "Author": "GizmoEnthusiast",
+    "Version": "1.0.0",
+    "Description": "Adds Gizmo as a cat option",
+    "UniqueID": "GizmoEnthusiast.Gizmo",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

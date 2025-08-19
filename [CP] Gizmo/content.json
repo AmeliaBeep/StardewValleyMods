@@ -1,0 +1,42 @@
+{
+    "Format": "2.4.4",
+
+    "ConfigSchema": {
+        "Cat Breeds": {
+            "AllowValues": "Gizmo",
+            "AllowMultiple": true,
+            "Default": "Gizmo"
+        }
+    },
+
+    "Changes": [
+        {
+            "LogName": "Gizmo",
+            "Action": "EditData",
+            "Target": "Data/Pets",
+            "TargetField": [ "Cat", "Breeds" ],
+            "Entries": {
+            "GizmoEnthusiast.Gizmo.Gizmo": {
+                "Id": "GizmoEnthusiast.Gizmo.Gizmo",
+                    "Texture": "Mods\\GizmoEnthusiast.Gizmo\\Gizmo",
+                    "IconTexture": "Mods\\GizmoEnthusiast.Gizmo\\Gizmo_icon",
+                    "IconSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                        },
+                    "BarkOverride": null,
+                    "VoicePitch": 1.0
+                    }
+                },
+            "When": { "Cat Breeds": "Gizmo" }
+        },
+        {
+            "LogName": "Load images",
+            "Action": "Load",
+            "Target": "Mods\\GizmoEnthusiast.Gizmo\\Gizmo, Mods\\GizmoEnthusiast.Gizmo\\Gizmo_icon",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        }
+    ]
+}
