@@ -1,0 +1,26 @@
+{
+    "Changes":[
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish",
+            "Entries": {
+                "GizmoEnthusiast.Fishmo": "Fishmo/69/sinker/5/30/600 1900/spring summer fall winter/both/685 .35/3/.4/.2/0/false"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Beach",
+                "Fish"
+            ],
+            "Entries":{
+                "GizmoEnthusiast.Fishmo": {
+                    "Id": "GizmoEnthusiast.Fishmo",
+                    "ItemId": "GizmoEnthusiast.Fishmo",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                }
+            }
+        }
+    ]
+}

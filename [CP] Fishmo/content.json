@@ -1,0 +1,15 @@
+{
+    "Format": "2.4.4",
+    "Changes": [
+            {
+                "LogName": "Include Data Edits",
+                "Action": "Include",
+                "FromFile": "Data/Fish/FishData.json, Data/Fish/FishPond.json, Data/Fish/Aquarium.json"
+            },
+            {
+                "LogName": "Include Edited Objects",
+                "Action": "Include",
+                "FromFile": "Data/Objects/Objects.json"
+            }
+        ]
+}
