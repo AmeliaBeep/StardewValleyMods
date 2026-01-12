@@ -3,7 +3,7 @@
 <div align="center">
     <figure>
         <img src="assets/images/realmo.jpeg"  width="35%">
-        <figcaption>A collection of mods based on Gizmo</p>
+        <figcaption>A collection of mods based on Gizmo</figcaption>
     </figure>
 </div>
 
